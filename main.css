@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    box-sizing: border-box;
+    
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  body {
+    background: #FFFFFF;
+  }
+  .header {
+    padding-top: 45px;
+    color: black;
+
+  }
+  .wrapper {
+    background-image: url("./1\ \(2\).png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#FFFFFF;
+    height: 300px;
+    color: black;
+  }
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #FFFFFF;
+    color: black;
+
+  }
+  .header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    gap: 30px;
+    background-color: #FFFFFF;
+    color: black;
+
+
+  }
+  .header__link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FFFFFF;
+    color: black;
+
+
+  }
+  .header__link:hover {
+    color: orange;
+    transition: color 0.6s ease;
+  }
+  .header__link2{
+    text-decoration: none;
+    color: #fff;
+    margin-left: -500px;
+    margin-left: 250px;
+  }
+
+  .header__link3{
+    background-color: #FC004A;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    margin-left: -1 00px;
+  }
+
+  .hr{
+    margin-top: 50px;
+  }
+  .karta {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .frame {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: red;
+  }
+  .section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    gap: 20px;
+  }
+
+  .buger{
+    margin-left: 150px;
+    margin-top: 100px;
+  }
